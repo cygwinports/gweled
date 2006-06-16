@@ -1,0 +1,90 @@
+gweled
+------------------------------------------
+Gweled is a Gnome version of a popular PalmOS/Windows/Java game called
+'Bejeweled' or 'Diamond Mine'. The aim of the game is to make alignment
+of 3 or more gems, both vertically or horizontally by swapping adjacent
+gems. The game ends when there are no possible moves left.
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  gtk2-x11-runtime-2.6.10-1
+  libglade2-2.5.1-1
+  libgnome2-2.12.0.1-1
+  libgnomeui2-2.12.0-1
+  libmikmod-3.1.11-1
+  librsvg2-2.12.7-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://sebdelestaing.free.fr/gweled/
+
+Canonical download:
+  http://sebdelestaing.free.fr/gweled/Release/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gweled-0.7-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gweled-0.7-X.sh all
+
+This will create:
+  /usr/src/gweled-0.7-X-src.tar.bz2
+  /usr/src/gweled-0.7-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gweled.exe
+  /usr/share/applications/gweled.desktop
+  /usr/share/doc/Cygwin/gweled-0.7.README
+  /usr/share/doc/gweled-0.7/AUTHORS
+  /usr/share/doc/gweled-0.7/ChangeLog
+  /usr/share/doc/gweled-0.7/COPYING
+  /usr/share/doc/gweled-0.7/INSTALL
+  /usr/share/doc/gweled-0.7/NEWS
+  /usr/share/doc/gweled-0.7/README
+  /usr/share/gweled/gweled.glade
+  /usr/share/gweled/gweled_icon.png
+  /usr/share/gweled/gweled_logo.png
+  /usr/share/pixmaps/gweled/cursor.svg
+  /usr/share/pixmaps/gweled/font_24_20.png
+  /usr/share/pixmaps/gweled/font_48_40.png
+  /usr/share/pixmaps/gweled/gem01.svg
+  /usr/share/pixmaps/gweled/gem02.svg
+  /usr/share/pixmaps/gweled/gem03.svg
+  /usr/share/pixmaps/gweled/gem04.svg
+  /usr/share/pixmaps/gweled/gem05.svg
+  /usr/share/pixmaps/gweled/gem06.svg
+  /usr/share/pixmaps/gweled/gem07.svg
+  /usr/share/pixmaps/gweled/tile_even.svg
+  /usr/share/pixmaps/gweled/tile_odd.svg
+  /usr/share/pixmaps/gweled.png
+  /usr/share/sounds/gweled/autonom.s3m
+  /usr/share/sounds/gweled/click.wav
+  /usr/share/sounds/gweled/swap.wav
+  /var/lib/games/gweled.easy.scores
+
+------------------
+
+Port Notes:
+
+----- version 0.7-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
