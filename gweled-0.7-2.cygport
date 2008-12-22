@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Bejeweled game"
+HOMEPAGE="http://sebdelestaing.free.fr/gweled/"
+SRC_URI="http://sebdelestaing.free.fr/gweled/Release/${P}.tar.gz"
+PATCH_URI="0.7-double-free.patch"
+
+CYGCONF_ARGS="--disable-setgid"
+
+export DATADIRNAME=share
