@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Bejeweled game"
+HOMEPAGE="http://gweled.org/"
+SRC_URI="http://launchpad.net/gweled/trunk/${PV}/+download/${P}.tar.gz"
+
+LDFLAGS+=" -Wl,--export-all-symbols"
+CYGCONF_ARGS="--disable-setgid"
