@@ -1,0 +1,16 @@
+inherit gnome2
+
+NAME="gweled"
+VERSION=0.9.1
+RELEASE=2
+CATEGORY="Games"
+SUMMARY="GTK+ Diamond Mine game"
+DESCRIPTION="Gweled is a Gnome version of a popular PalmOS/Windows/Java game
+called 'Bejeweled' or 'Diamond Mine'. The aim of the game is to make alignment
+of 3 or more gems, both vertically or horizontally by swapping adjacent gems.
+The game ends when there are no possible moves left."
+HOMEPAGE="http://gweled.org/"
+SRC_URI="http://launchpad.net/gweled/trunk/${VERSION}/+download/gweled-${VERSION}.tar.gz"
+
+LDFLAGS+=" -Wl,--export-all-symbols"
+CYGCONF_ARGS="--disable-setgid"

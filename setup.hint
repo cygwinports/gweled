@@ -1,7 +1,0 @@
-category: Gnome Games
-requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libmikmod2 librsvg2_2
-sdesc: "GNOME Diamond Mine game"
-ldesc: "Gweled is a Gnome version of a popular PalmOS/Windows/Java game called
-'Bejeweled' or 'Diamond Mine'. The aim of the game is to make alignment
-of 3 or more gems, both vertically or horizontally by swapping adjacent
-gems. The game ends when there are no possible moves left."
