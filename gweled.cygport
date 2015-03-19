@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="gweled"
 VERSION=0.9.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Games"
 SUMMARY="GTK+ Diamond Mine game"
 DESCRIPTION="Gweled is a Gnome version of a popular PalmOS/Windows/Java game
